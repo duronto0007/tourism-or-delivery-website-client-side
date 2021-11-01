@@ -1,0 +1,72 @@
+.about-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 70px;
+}
+.brand-logo{
+    padding-bottom: 90px;
+}
+.our-values{
+    padding-bottom: 20px;
+}
+.text{
+    padding: 20px;;
+}
+Button{
+    width: 50%;
+     margin-left: 45px;
+}
+.progress{
+    margin-right: 50%;
+    background: none;
+}
+span{
+    display: flex;
+}
+hr{
+    background-color: black;
+    padding: 5px;
+}
+.pro-1{
+    width: 75%;
+    background-color: blue;
+}
+.pro-2{
+    width: 33%;
+    background-color: brown;
+}
+.pro-3{
+    width: 88%;
+    background-color: rgb(58, 58, 12);
+}
+.pro-4{
+    width: 75%;
+    background-color: red;
+}
+.pro-5{
+    width: 50%;
+    background-color: rgb(92, 80, 13);
+}
+.brand-logo{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap:20px;
+}
+.logo-savg{
+    width: 100%;
+}
+
+/* Responsive part */
+
+@media only screen and (max-width: 688px) {
+    .about-section{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 689px) and (max-width:991px) {
+    .about-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

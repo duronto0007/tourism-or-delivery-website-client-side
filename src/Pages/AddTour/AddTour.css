@@ -1,0 +1,28 @@
+.add-tour form{
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+   margin: auto;
+   
+}
+.add-tour form input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border: none;
+}
+.add-tour{
+    background-color: rgb(146, 154, 156);
+    height: 350px;
+    padding-top: 1px;
+
+}
+.add-tour h2{
+    color: rgb(92, 28, 36);
+    font-weight: bold;
+        
+}

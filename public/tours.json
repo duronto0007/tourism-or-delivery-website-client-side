@@ -1,0 +1,38 @@
+[
+    {
+       "id":1,
+       "name":"Sintra, Lisbon and Fátima Three-Day Tour",
+       "price":1000,
+       "img":"https://i.ibb.co/ncTcBxT/1.jpg"
+    },
+    {
+       "id":2,
+       "name":"Douro Valley Group Tour with Wine Tasting",
+       "price":500,
+       "img":"https://i.ibb.co/cQVj4Vr/2.jpg"
+    },
+    {
+       "id":3,
+       "name":"Sintra and Cascais Small-Group Day Trip from Lisbon",
+       "price":800,
+       "img":"https://i.ibb.co/Wz5pDDn/3.jpg"
+    },
+    {
+       "id":4,
+       "name":"Highlights of Portugal",
+       "price":900,
+       "img":"https://i.ibb.co/WzLJ4ht/4.jpg"
+    },
+    {
+       "id":5,
+       "name":"Small-Group Trip",
+       "price":1200,
+       "img":"https://i.ibb.co/MhMbBsR/5.jpg"
+    },
+    {
+       "id":6,
+       "name":"Sintra Full-Day Trip",
+       "price":1100,
+       "img":"https://i.ibb.co/6sbB0rb/6.jpg"
+    }
+ ]
