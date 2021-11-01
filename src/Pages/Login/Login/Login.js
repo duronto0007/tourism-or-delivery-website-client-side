@@ -3,18 +3,19 @@ import { Button, Card } from 'react-bootstrap';
 import UseAuth from '../../../hooks/UseAuth';
 import { useHistory, useLocation } from 'react-router-dom'; 
 import './Login.css';
+import useFirebase from '../../../hooks/useFirebase';
 
 const Login = () => {
-   const {signInUsingGoogole} = UseAuth();
+   const {signInUsingGoogole} = useFirebase();
    const history = useHistory();
     const location = useLocation();
     const redirect_uri = location?.state?.from?.pathname || "/home";
 
         const handleGoogleSignIn = () =>{
       signInUsingGoogole()
-        // .then(result => {
-        //                 history.push(redirect_uri)
-        //       })
+        .then(result => {
+                        history.push(redirect_uri)
+              })
          }
 
     return (
