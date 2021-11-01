@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import UseAuth from '../../../hooks/UseAuth';
-import { useHistory, useLocation } from 'react-router'; 
+import { useHistory, useLocation } from 'react-router-dom'; 
 import './Login.css';
 
 const Login = () => {
@@ -12,9 +12,9 @@ const Login = () => {
 
         const handleGoogleSignIn = () =>{
       signInUsingGoogole()
-        .then(result => {
-                        history.push(redirect_uri)
-              })
+        // .then(result => {
+        //                 history.push(redirect_uri)
+        //       })
          }
 
     return (
